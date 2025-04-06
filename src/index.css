@@ -1,0 +1,125 @@
+/* Start Global Rules */
+@import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap");
+:root {
+  --main-color: #3c8186;
+  --second-color: #555;
+  --transition: all 0.4s ease-in-out;
+}
+
+/* Start classes for Bootstrap */
+.main-color {
+  color: var(--main-color);
+}
+.bg-main-color {
+  background-color: var(--main-color);
+}
+.second-color {
+  color: var(--second-color);
+}
+.bg-second-color {
+  background-color: var(--second-color);
+}
+.transition-4 {
+  transition: var(--transition) !important;
+}
+.heading{
+  color: var(--main-color);
+  width: fit-content;
+  margin: 0 auto 40px;
+  padding: 4px;
+  position: relative;
+}
+.heading::before{
+  transition: var(--transition);
+  content: '';
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -12px;
+  width: 100px;
+  border-radius: 4px;
+  height: 6px;
+  background-color: var(--main-color);
+}
+.heading:hover::before{
+  width: 100% !important;
+}
+.btn {
+  font-size: 20px !important;
+  font-weight: 500 !important;
+  background-image: linear-gradient(
+    to left,
+    #37b7c3,
+    #9370db,
+    #37b7c3,
+    #9370db
+  );
+  background-size: 300% 100%;
+  border-radius: 80px !important;
+  transition: var(--transition) !important;
+  color: white !important;
+}
+.btn:hover {
+  background-image: linear-gradient(
+    to right,
+    #37b7c3,
+    #9370db,
+    #37b7c3,
+    #9370db
+  );
+  background-position: 100% 0;
+}
+
+/* End classes for Bootstrap */
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Tajawal", sans-serif !important;
+  line-height: 1.8;
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none !important;
+  outline: none !important;
+  color: black !important;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0 0 8px 0;
+  margin: 0;
+}
+ul,
+li {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+p {
+  margin: 0px;
+  font-size: 14px;
+}
+button {
+  border: 0;
+  margin: 0;
+  padding: 16px 24px;
+  cursor: pointer;
+}
+img {
+  max-width: 100%;
+}
+:focus {
+  outline: none;
+}
+/* End Global Rules */

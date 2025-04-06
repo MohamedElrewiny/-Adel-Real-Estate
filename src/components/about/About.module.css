@@ -1,0 +1,28 @@
+.main_content{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+.main_section_text h1{
+  color: var(--second-color);
+  font-size: 29px;
+  margin: 0;
+  line-height: 50px;
+}
+.main_section_text p{
+  color: #2b2d34;
+    font-size: 19px;
+    font-weight: 400;
+}
+
+@media(max-width: 992px){
+  .main_content{
+    flex-direction: column-reverse;
+    gap: 10px;
+  }
+  .main_content > div{
+    width: 100% !important;
+  }
+}

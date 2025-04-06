@@ -1,0 +1,20 @@
+h4.aboutHeading{
+  width: 100% !important;
+  display: flex !important;
+  justify-content: flex-start !important;
+  margin-right: auto !important;
+  text-align: right !important;
+}
+h4.aboutHeading::before{
+  background-color: transparent !important;
+  content: "" !important;
+  position: absolute !important;
+  right: 0 !important;
+  top: 0 !important;
+  height: 100% !important;
+  width: 5px !important;
+  transition: var(--transition);
+}
+h4.aboutHeading:hover::before{
+  background-color: var(--main-color) !important;
+}

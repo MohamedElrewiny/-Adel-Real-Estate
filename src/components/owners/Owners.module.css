@@ -1,0 +1,9 @@
+.row > div{
+  font-size: 16px;
+  font-weight: 400;
+}
+.row > div a{
+  color: var(--main-color) !important;
+  font-size: 18px;
+  font-weight: 500;
+}
