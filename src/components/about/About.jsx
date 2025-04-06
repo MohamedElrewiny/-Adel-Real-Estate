@@ -1,6 +1,6 @@
 import React from "react";
 import Style from "./About.module.css";
-import pdf1 from '../../assets/pdf/مؤسسة عادل حسين يحي ال عبدالله العقارية.pdf'
+import pdf1 from '../../assets/pdf/Adel_Real_State.pdf'
 import img1 from '../../assets/about/saudi_eltejara.png'
 import img2 from '../../assets/about/ejar.png'
 
