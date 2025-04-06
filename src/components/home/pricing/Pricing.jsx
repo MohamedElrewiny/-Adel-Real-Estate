@@ -30,7 +30,7 @@ const Pricing = () => {
             </ul>
             <div className="text-center">
               <a
-                href="https://s.rofida.sa/res"
+                href="#"
                 className="btn w-100"
               >
                 اطلبه الآن
@@ -53,7 +53,7 @@ const Pricing = () => {
             </ul>
             <div className="text-center">
               <a
-                href="https://s.rofida.sa/com"
+                href="#"
                 className="btn w-100"
               >
                 اطلبه الآن

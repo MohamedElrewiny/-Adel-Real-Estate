@@ -1,0 +1,9 @@
+@media(max-width:767px){
+  .main_section{
+    flex-direction: column;
+    gap: 24px;
+  }
+  .main_section >div{
+    text-align: center;
+  }
+}

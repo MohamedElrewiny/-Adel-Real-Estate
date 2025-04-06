@@ -8,7 +8,7 @@ const Footer = () => {
       <footer className={`${Style.footer}`}>
         <div className="container">
           <div
-            className={`${Style.main_content} d-flex gap-5 justify-content-evenly align-items-center`}
+            className={`${Style.main_content} d-flex gap-3 justify-content-evenly align-items-center`}
           >
             <div className={`${Style.quick_links}`}>
               <ul className={`${Style.about_list}`}>
@@ -31,7 +31,7 @@ const Footer = () => {
             </div>
             <div className="footer-bottom">
               <ul
-                className={`${Style.social_list}  d-flex justify-content-start align-items-center mb-3 flex-wrap`}
+                className={`${Style.social_list} m-0 p-0 d-flex justify-content-start align-items-center mb-3 flex-wrap`}
               >
                 <li>
                   <a href="https://x.com/adel_aqar" target="_blank">
